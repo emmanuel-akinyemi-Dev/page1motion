@@ -656,6 +656,14 @@ video {
   right: 1.5rem;
 }
 
+.left-8 {
+  left: 2rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -690,6 +698,14 @@ video {
 
 .h-10 {
   height: 2.5rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
+.h-28 {
+  height: 7rem;
 }
 
 .w-11 {
@@ -750,6 +766,10 @@ video {
 
 .w-24 {
   width: 6rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .border-collapse {
@@ -838,6 +858,14 @@ video {
 
 .stroke-black {
   stroke: #000;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .text-lg {
