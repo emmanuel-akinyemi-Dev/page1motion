@@ -744,6 +744,18 @@ video {
   left: 1rem;
 }
 
+.left-14 {
+  left: 3.5rem;
+}
+
+.bottom-9 {
+  bottom: 2.25rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
