@@ -1,6 +1,8 @@
 //video
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
+const video = document.getElementById("myVideo");
+const btn = document.getElementById("myBtn");
+const 
+
 
 // Pause and play the video function
 function myFunction() {
