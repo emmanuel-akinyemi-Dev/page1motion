@@ -1,75 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/css/output.css" rel="stylesheet">
-    <script defer ></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/css/output.css" rel="stylesheet" />
+    <script defer></script>
 
     <title>Document</title>
-</head>
-<body class="flex">
-<div class=" w-screen flex-1 ">
- <div class="border border-red-600 w-full" id="navPlain">
-    <video class="opacity-70 w-full" autoplay muted loop id="myVideo" >
-        <source src="./video/8b8aad0c617c41b88a959edf942cce2a.mp4" type="video/mp4">
-      </video>
-      
-    <div class="absolute top-0  flex w-full justify-between h-28 p-2"  id="">
-        <div class="   flex" id="logo"><img src="./images//page 1 motion (8).png" alt=""></div>
-        <div class="fill-white  stroke-black stroke right-8"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="110" viewBox="0 0 50 50">
-            <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
-        </svg>
-        </div>
-        <div class="absolute flex-col right-0 top-28 text-slate-200 hidden">
+  </head>
+  <body  >
+    <div class="w-screen flex-1 scroll-smooth">
+      <div class="w-full" id="navPlain">
+        <video class="opacity-70 w-full" autoplay muted loop id="myVideo">
+          <source
+            src="./video/8b8aad0c617c41b88a959edf942cce2a.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="absolute top-0 flex w-full justify-between p-2" id="">
+          <div class="h-32 pr-6 flex items-center" id="logo">
+            <img
+              class="w-36 p-0"
+              src="./images//page 1 motion (8).png"
+              alt=""
+            />
+            <h1 class="text-2xl text-slate-200 absolute left-24 bottom-10  ">Page1motion</h1>
+          </div>
+          <div class="fill-slate-200 pr-2 stroke-black stroke right-8 ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="55"
+              height="110"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"
+              ></path>
+            </svg>
+          </div>
+          <div class="absolute flex-col right-0 top-28 text-slate-200 hidden">
             <p>GENRE</p>
             <p>ABOUT</p>
             <p>CONTACT</p>
-    </div>
-    </div>
- <div class="absolute top-36 left-2  text-white">
-    <h3 class="text-lg">Goodbye subway</h3>
-    <button class="rounded-lg bg-red-500 font-extrabold p-1 ">
-        View
-      </button>
-    <div id="dots"></div>
- </div>
- </div>
- <div id="moto">
+          </div>
+        </div>
+        <div class=" absolute top-44 left-4 text-white flex-1 ">
+          <div><h3 class="text-lg  ">Goodbye subway</h3>
+          </div>
+           <div class="ml-9 bg-red-500 font-extrabold left-4 w-16 rounded-md p-1 px-3 "><strong>View</strong>  
+           </div>
+        </div>
+           <div id="dots">
+        </div>
+      </div>
+      <div id="moto">
         <strong>CHANGING HOW STORIES ARE TOLD AND MADE IN AFRICA...</strong>
- </div>
+      </div>
 
- <div id="cast">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
-    <img class="castImg" src="./images/DSC_crop.jpg" alt="img">
- </div>
+      <div class="flex snap-x" id="cast">
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+        <img class="castImg" src="./images/DSC_crop.jpg" alt="img" />
+      </div>
 
- <div >
-    <img src="./images/istockphoto-1573329496-1024x1024.jpg" alt="">
- </div>
- 
-<div id="newsBar">]
-    <div class="news">
-      <img src="./images/DSC_crop.jpg" alt="News Image">
-      <h1 class="newsTitle"> what is lorem ipsum? </h1>
-      <p>Lorem Ipsum is simply dummy text of the 
-        printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy </p>
+      <div>
+        <img src="./images/istockphoto-1573329496-1024x1024.jpg" alt="" />
+      </div>
+
+      <div id="newsBar">
+        ]
+        <div class="news">
+          <img src="./images/DSC_crop.jpg" alt="News Image" />
+          <h1 class="newsTitle">what is lorem ipsum?</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </p>
+        </div>
+      </div>
+
+      <div class="video">
+        <video width="320" height="240" controls>
+          <source
+            src="./video/8b8aad0c617c41b88a959edf942cce2a.mp4"
+            ,
+            type="video/mp4"
+          />
+        </video>
+      </div>
+
+      <div id="footer" class="">
+        <p></p>
+        Enugu Nigeria | Lagos Nigeria
+        <div id="socials"></div>
+        <small
+          >© Page1motion, All Rights Reserved, Page1motion Entertainment</small
+        >
+      </div>
     </div>
-</div>
-
-
-<div class="video"> 
-    <video width="320" height="240" controls> <source src="./video/8b8aad0c617c41b88a959edf942cce2a.mp4", type="video/mp4" ></video>
-     
-</div>
-
-<div id="footer" class=""><p></p>Enugu Nigeria | Lagos Nigeria <div id="socials"></div> <small>© Page1motion, All Rights Reserved,  Page1motion Entertainment</small></div>  
-    </div>
-</body>
+  </body>
 </html>
