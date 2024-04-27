@@ -1,7 +1,7 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+ @import "tailwindcss/base";
+ @import "tailwindcss/components";
+ @import "tailwindcss/utilities";
 
-/* .castImg{
-    @apply w-40, mx-2
-} */
+.castImg{
+    @apply w-40 mr-1
+}
