@@ -4,5 +4,8 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i src/css/index.css -o src/css/output.css --watch"
+  },
+  "dependencies": {
+    "tailwind-merge": "^2.3.0"
   }
 }
