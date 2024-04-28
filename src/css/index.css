@@ -11,3 +11,18 @@
 .castName{
     @apply absolute bottom-1
 }
+.h1{
+   @apply ml-3 font-bold capitalize mb-2
+}
+.p{
+  @apply  ml-3 mb-3  
+}
+.newsImg{
+    @apply rounded-lg  w-full h-40 mb-2
+}
+.card{
+    @apply bg-zinc-400 mt-5 mx-10 rounded-lg shadow-lg shadow-slate-900 
+}
+.inBox{
+    @apply w-full
+}
