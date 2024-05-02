@@ -1,15 +1,9 @@
-//video
-const video = document.getElementById("myVideo");
-const btn = document.getElementById("myBtn");
- 
+gsap.fromTo('#preloader', 
+{opacity:1},
+ {opacity: 0,
+   duration:1.5,
+  delay:3.5
+  })
 
-// Pause and play the video function
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
+gsap.fromTo('#main',{visibility:"hidden"}, {autoAlpha:1, delay:3.8})
+

@@ -26,3 +26,20 @@
 .inBox{
     @apply w-full
 }
+.pee{
+    @apply animate-pulse
+}
+.one{
+    @apply animate-pulse
+}
+
+.small{
+    @apply sm:
+}
+.medium{
+    @apply md:
+}
+.large{
+    @apply lg:
+}
+ 

@@ -6,6 +6,15 @@
     "build": "npx tailwindcss -i src/css/index.css -o src/css/output.css --watch"
   },
   "dependencies": {
+    "gsap": "^3.12.5",
+    "imagesloaded": "^5.0.0",
     "tailwind-merge": "^2.3.0"
-  }
+  },
+  "name": "page1motion",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.html",
+  "author": "Emmanuel Akinymei",
+  "license": "ISC" 
+  
 }
