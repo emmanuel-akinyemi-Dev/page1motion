@@ -1,7 +1,6 @@
- @import "tailwindcss/base";
- @import "tailwindcss/components";
- @import "tailwindcss/utilities";
-
+ 
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 .castImg{
     @apply w-full h-full mr-1
 }
@@ -42,4 +41,6 @@
 .large{
     @apply lg:
 }
- 
+
+
+@import "tailwindcss/utilities";

@@ -8,11 +8,25 @@
     <title>Document</title>
 </head>
 <body class="w-screen h-screen">
-    <div id="content" class="bg-neutral-900 p-0 m-0 h-full w-full flex justify-center items-center relative">
-        <p class="text-slate-100">Welcome Home</p>
+
+    <div id="content" class="bg-neutral-900 h-full w-full relative">
+      <video
+      id="introVideo"
+      class="opacity-30 w-full"
+        autoplay
+        muted
+        loop
+        id="myVideo"
+      >
+        <source
+          src="../video/8b8aad0c617c41b88a959edf942cce2a.mp4"
+          type="video/mp4"
+        />
+      </video>
+ 
     </div>
 
-    <div id="preloader" class="absolute top-0 left-0 bg-slate-300 h-full w-full flex justify-center items-center flex-col">
+    <!-- <div id="preloader" class="absolute top-0 left-0 bg-slate-300 h-full w-full flex justify-center items-center flex-col">
         <svg class="w-32 h-52 animate-pulse  " viewBox="0 0 498 624" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect width="498" height="624" fill="url(#pattern0_186_2)"/>
             <defs>
@@ -23,7 +37,7 @@
             </defs>
             </svg>
          <h1 class="bottom-60  text-slate-600 absolute font-bold animate-bounce">PAGE1MOTION</h1>
-    </div>
+    </div> -->
  
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
